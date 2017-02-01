@@ -1,0 +1,42 @@
+/*
+* {
+    box-sizing: border-box;
+}
+*/
+
+body {
+    font-family: sans-serif;
+    background-image: url("veggies.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+h1 {
+    font-size: 0.5rem;
+}
+
+section {
+    /*    width: 50%;
+    */
+    border: solid grey;
+    width: 25em;
+    /*    text-align: center;
+    */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 240px;
+    /*    color: mediumslateblue;
+    */
+    font-weight: bold;
+}
+
+.letters {
+    display: inline-block;
+    /*    float: left;
+    */
+    clear: both;
+}
+
+.questions,
+.letters {}

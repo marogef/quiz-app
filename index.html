@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Quiz App</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <section class="intro">
+        <h1> Here we have the quiz questions for you.</h1>
+        <p>Welcome to our quiz application. Please choose the best answer and it will be scored appropriately.</p>
+
+        <!--  if the user clicks on the start then move to class questions.-->
+        <button class="startbutton">start</button>
+    </section>
+    <!--    //hide this section unless the user clicks the start above-->
+    <section class="questions">
+        <h2 class="text"></h2>
+        <!--        keep track of score in a variable called correctScore-->
+        <br>
+        <div class="choices">
+            <input type="radio" name="pizza" class="option" value="1" />
+            <label for="option"></label>
+            <br>
+            <input type="radio" name="pizza" class="option" value="2" />
+            <label for="option"></label>
+            <br>
+            <input type="radio" name="pizza" class="option" value="3" />
+            <label for="option"></label>
+            <br>
+            <input type="radio" name="pizza" class="option" value="4" />
+            <label for="option"></label>
+            <br>
+        </div>
+        <button class="submitbutton">Submit</button>
+        <h4 class="questionNumberDisplay">Questions 4 of 10</h4>
+    </section>
+
+    <section class="results">
+        <h3>You scored</h3>
+        <h4 class="score"></h4>
+        <section class="message"></section>
+        <button class="tryagain">try again</button>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
+    <script src="jslink.js"></script>
+</body>
+
+</html>
