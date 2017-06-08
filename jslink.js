@@ -6,7 +6,7 @@ var questionsArray = [
     //Question 1
     {
         questionText: 'Which Pizza brand is the best tasting?',
-        questionChoices: ['California Hot pizza', 'Neumans Own', 'Djiorno', 'D Jets Pizza'],
+        questionChoices: [' California Hot pizza', ' Neumans Own', ' Djiorno', ' D Jets Pizza'],
         questionCorrectChoice: 0,
         answer: 'The best Pizza brand is the California Hot pizza'
     },
@@ -14,7 +14,7 @@ var questionsArray = [
     //Question 2
     {
         questionText: 'What food has the lowest number carbs for each 100g?',
-        questionChoices: ['Broccoli', 'Eggplant', 'Eggs', 'Zucchini'],
+        questionChoices: [' Broccoli', ' Eggplant', ' Eggs', ' Zucchini'],
         questionCorrectChoice: 3,
         answer: 'The food has the lowest number carbs for each 100g is Eggs'
     },
@@ -22,10 +22,10 @@ var questionsArray = [
     //Question 3
     {
         questionText: 'What is the healthiest source of protein?',
-        questionChoices: ['Eggs',
-                          'Steak',
-                          'Cheese',
-                          'Chicken'],
+        questionChoices: [' Eggs',
+                          ' Steak',
+                          ' Cheese',
+                          ' Chicken'],
         questionCorrectChoice: 2,
         answer: 'The the healthiest source of protein is cheese'
 
@@ -34,10 +34,10 @@ var questionsArray = [
     //Question 4
     {
         questionText: 'What kind of coffee is the best when buying?',
-        questionChoices: ['Swiss processed',
-                           'Regular processed',
-                           'Organic',
-                           'Dark roasted coffee'],
+        questionChoices: [' Swiss processed',
+                           ' Regular processed',
+                           ' Organic',
+                           ' Dark roasted coffee'],
         questionCorrectChoice: 2,
         answer: 'The kind of coffee is the best when buying is organic'
     },
@@ -45,9 +45,9 @@ var questionsArray = [
     //Question 5
     {
         questionText: 'What type of cheese is the best tasting?',
-        questionChoices: ['low fat Cottage cheese',
-                          'Regular Mozerella Cheese',
-                          'American Cheese'],
+        questionChoices: [' low fat Cottage cheese',
+                          ' Regular Mozerella Cheese',
+                          ' American Cheese'],
         questionCorrectChoice: 1,
         answer: 'The type of cheese that is best tasting is Regular Mozerella Cheese'
     },
@@ -55,10 +55,10 @@ var questionsArray = [
     //Question 6
     {
         questionText: 'How many hours does it take to digest Nuts such as Almonds, Walnuts, and Hazelnuts?',
-        questionChoices: ['1 hour',
-                          '2 hours',
+        questionChoices: [' 1 hour',
+                          ' 2 hours',
                          ' 3 hours',
-                          '4 hours'],
+                          ' 4 hours'],
         questionCorrectChoice: 3,
         answer: 'The hours it takes to digest Nuts such as Almonds, Walnuts, and Hazelnuts is 4'
     },
@@ -66,10 +66,10 @@ var questionsArray = [
     //Question 7
     {
         questionText: 'Which of these has the highest carbs per 100g?',
-        questionChoices: ['Apple',
-                          'Kiwis',
-                          'Onion',
-                          'Pear'],
+        questionChoices: [' Apple',
+                          ' Kiwis',
+                          ' Onion',
+                          ' Pear'],
         questionCorrectChoice: 3,
         answer: 'the highest carbs per 100g is pear'
     },
@@ -77,10 +77,10 @@ var questionsArray = [
     //Question 8
     {
         questionText: 'What kind of sugar is the best?',
-        questionChoices: ['Coconut Sugar',
-                          'Regular Cane sugar',
-                          'Stevia',
-                          'Date sugar'],
+        questionChoices: [' Coconut Sugar',
+                          ' Regular Cane sugar',
+                          ' Stevia',
+                          ' Date sugar'],
         questionCorrectChoice: 2,
         answer: 'The kind of sugar is the best is stevia'
     },
@@ -88,10 +88,10 @@ var questionsArray = [
     //Question 9
     {
         questionText: 'What type of refrigerator brand lasts the longest?',
-        questionChoices: ['Fridgware',
-                          'Samsung',
-                          'LG',
-                          'Whirlpool'],
+        questionChoices: [' Fridgware',
+                          ' Samsung',
+                          ' LG',
+                          ' Whirlpool'],
         questionCorrectChoice: 2,
         answer: 'the type of refrigerator brand lasts the longest is lg'
 
@@ -100,10 +100,10 @@ var questionsArray = [
     //Question 10
     {
         questionText: 'What is the healthiest drink?',
-        questionChoices: ['Coffee',
-                          'Green tea',
-                          'Orange Juice',
-                          'Apple Juice'
+        questionChoices: [' Coffee',
+                          ' Green tea',
+                          ' Orange Juice',
+                          ' Apple Juice'
                          ],
         questionCorrectChoice: 1,
         answer: 'The healthiest drink is green tea'

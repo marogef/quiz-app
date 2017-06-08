@@ -1,9 +1,3 @@
-/*
-* {
-    box-sizing: border-box;
-}
-*/
-
 body {
     font-family: sans-serif;
     background-image: url("veggies.jpg");
@@ -12,29 +6,33 @@ body {
     color: white;
 }
 
+button,
+input {
+    text-align: center;
+    margin-left: 140px;
+    padding: 9px;
+}
+
 h1 {
-    font-size: 0.5rem;
+    font-size: 1.5rem;
 }
 
 section {
-    /*    width: 50%;
-    */
     border: solid grey;
-    width: 25em;
-    /*    text-align: center;
-    */
+    width: 45em;
     margin-left: auto;
     margin-right: auto;
     margin-top: 240px;
     /*    color: mediumslateblue;
     */
     font-weight: bold;
+    background-color: white;
+    color: black;
+    padding: 8px;
 }
 
 .letters {
     display: inline-block;
-    /*    float: left;
-    */
     clear: both;
 }
 
