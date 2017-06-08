@@ -5,51 +5,51 @@ Step 1 functions and object definitions
 var questionsArray = [
     //Question 1
     {
-        questionText: 'Which Pizza brand is the best tasting?',
-        questionChoices: [' California Hot pizza', ' Neumans Own', ' Djiorno', ' D Jets Pizza'],
+        questionText: 'What family do apples belong to?',
+        questionChoices: [' Rose family', ' Apples family', ' Orange family', ' Apricot family'],
         questionCorrectChoice: 0,
-        answer: 'The best Pizza brand is the California Hot pizza'
+        answer: 'Apples belong to the rose family'
     },
 
     //Question 2
     {
-        questionText: 'What food has the lowest number carbs for each 100g?',
-        questionChoices: [' Broccoli', ' Eggplant', ' Eggs', ' Zucchini'],
+        questionText: 'What age was the person that invented the popsicle?',
+        questionChoices: [' 19', ' 14', ' 11', ' 35'],
         questionCorrectChoice: 3,
-        answer: 'The food has the lowest number carbs for each 100g is Eggs'
+        answer: 'The popsicle was invented by an 11-year-old in 1905.'
     },
 
     //Question 3
     {
-        questionText: 'What is the healthiest source of protein?',
-        questionChoices: [' Eggs',
+        questionText: 'What is the most popular toppings for pizza in Brazil?',
+        questionChoices: [' Tomato',
+                          ' Green Peas',
                           ' Steak',
-                          ' Cheese',
                           ' Chicken'],
         questionCorrectChoice: 2,
-        answer: 'The the healthiest source of protein is cheese'
+        answer: 'The the most popular topping in Brazil is Green peas'
 
     },
 
     //Question 4
     {
-        questionText: 'What kind of coffee is the best when buying?',
-        questionChoices: [' Swiss processed',
-                           ' Regular processed',
-                           ' Organic',
-                           ' Dark roasted coffee'],
+        questionText: 'How much does the most expensive pizza in the world cost?',
+        questionChoices: [' $1200',
+                           ' $100',
+                          ' $12,000',
+                           ' $250'],
         questionCorrectChoice: 2,
-        answer: 'The kind of coffee is the best when buying is organic'
+        answer: 'The most expensive pizza in the world costs $12,000'
     },
 
     //Question 5
     {
-        questionText: 'What type of cheese is the best tasting?',
-        questionChoices: [' low fat Cottage cheese',
-                          ' Regular Mozerella Cheese',
-                          ' American Cheese'],
+        questionText: 'What was used as medicine in the 1800s?',
+        questionChoices: [' Alcohol',
+                          ' Ketchup',
+                          ' Onion'],
         questionCorrectChoice: 1,
-        answer: 'The type of cheese that is best tasting is Regular Mozerella Cheese'
+        answer: ' Ketchup was used as a medicine in the 1800s to treat diarrhea, among other things.'
     },
 
     //Question 6
@@ -76,37 +76,37 @@ var questionsArray = [
 
     //Question 8
     {
-        questionText: 'What kind of sugar is the best?',
-        questionChoices: [' Coconut Sugar',
-                          ' Regular Cane sugar',
-                          ' Stevia',
-                          ' Date sugar'],
+        questionText: 'What does eating banana help with',
+        questionChoices: [' Diabetes',
+                          ' Fight the cold',
+                          ' Fight depression',
+                          ' Colera'],
         questionCorrectChoice: 2,
-        answer: 'The kind of sugar is the best is stevia'
+        answer: 'Eating bananas can help fight depression.'
     },
 
     //Question 9
     {
-        questionText: 'What type of refrigerator brand lasts the longest?',
-        questionChoices: [' Fridgware',
-                          ' Samsung',
-                          ' LG',
-                          ' Whirlpool'],
+        questionText: ' What is SPAM is short for?',
+        questionChoices: [' Serviced pam',
+                          ' South Pandorama Amazing Meat',
+                          ' Spiced ham',
+                          ' Spiced Pandorama Amazing Meat Co.'],
         questionCorrectChoice: 2,
-        answer: 'the type of refrigerator brand lasts the longest is lg'
+        answer: 'SPAM is short for spiced ham'
 
     },
 
     //Question 10
     {
-        questionText: 'What is the healthiest drink?',
-        questionChoices: [' Coffee',
-                          ' Green tea',
-                          ' Orange Juice',
-                          ' Apple Juice'
+        questionText: 'What was the most popular carrot color in 1970?',
+        questionChoices: [' Orange',
+                          ' Purple',
+                          ' Green',
+                          ' light-orange'
                          ],
         questionCorrectChoice: 1,
-        answer: 'The healthiest drink is green tea'
+        answer: 'The most popular carrots used to be purple in 1970'
 
     }
 ];
@@ -181,8 +181,8 @@ $(document).ready(function () {
             totalNumberOfCorrectAnswers = totalNumberOfCorrectAnswers + 1;
         }
 
-        $('.message').append("<h3>Q: " + questionsArray[currentQuestionNumber].questionText + "</h3>");
-        $('.message').append("<h4>A: " + questionsArray[currentQuestionNumber].answer + "</h4>");
+        $('.message').append("<h3>Question: " + questionsArray[currentQuestionNumber].questionText + "</h3>");
+        $('.message').append("<h4>Answer: " + questionsArray[currentQuestionNumber].answer + "</h4>");
 
 
         //if quiz is finished, show result-section
