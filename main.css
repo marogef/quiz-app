@@ -52,3 +52,12 @@ section {
 
 .questions,
 .letters {}
+
+@media (max-width: 1024px) {
+    html {
+        height: 126em;
+    }
+    section {
+        margin-top: 577px;
+    }
+}
