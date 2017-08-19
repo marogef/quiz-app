@@ -23,12 +23,34 @@ section {
     margin-left: auto;
     margin-right: auto;
     margin-top: 240px;
-    /*    color: mediumslateblue;
-    */
+    color: mediumslateblue;
     font-weight: bold;
     background-color: white;
     color: black;
     padding: 8px;
+}
+
+.choices {}
+
+.first-option {
+    /*        padding: 5px;*/
+    border: 5px black dotted;
+    background-color: gray;
+}
+
+.second-option {
+    /*    padding: 5px;*/
+    background-color: gray;
+}
+
+.third-option {
+    /*    padding: 5px;*/
+    background-color: gray;
+}
+
+.fourth-option {
+    /*    padding: 5px;*/
+    background-color: gray;
 }
 
 .message {
@@ -51,7 +73,31 @@ section {
 }
 
 .questions,
-.letters {}
+.letters {
+    padding: 5px;
+    color: gray;
+    /*    background-color: blue;*/
+    /*    border: 5px black dotted;*/
+}
+
+.choices {
+    border-color: antiquewhite;
+    border: 150px;
+    background-color: ghostwhite;
+    /*    width: 300px*/
+}
+
+.option {
+    padding: 2px;
+    /*    border-color: antiquewhite;*/
+    border: 5px;
+    background-color: black;
+}
+
+.message {
+    color: black;
+    background-color: aqua;
+}
 
 @media (max-width: 1024px) {
     html {
