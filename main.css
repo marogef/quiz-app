@@ -5,7 +5,11 @@ body {
     background-size: cover;
     color: white;
 }
-
+html,
+body{
+width:100%;
+overflow-x:hidden;
+}
 button,
 input {
     text-align: center;
@@ -150,7 +154,8 @@ input[type="radio"] + label span {
     /*    background-color: aqua;*/
 }
 
-@media (max-width: 1024px) {
+@media only screen and (max-device-width: 895px) and (min-device-width: 305px)
+ {
     html {
         height: 126em;
     }
@@ -161,12 +166,19 @@ input[type="radio"] + label span {
         width: 262px;
         margin: 4px -120px 6px -33px;
     }
+     .quiz-app{
+         margin-top: 525px;
+     }
+     .choices{
+         width: 430px;
+     }
+     
     section.intro {
         border: 1px solid grey;
         width: 45em;
         margin-left: auto;
         margin-right: auto;
-        margin-top: 240px;
+        margin-top: 800px;
         color: mediumslateblue;
         font-weight: bold;
         background-color: #f7f7f7;
