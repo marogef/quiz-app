@@ -207,7 +207,7 @@ input[type="radio"] + label span {
         margin-right: auto;
         background-repeat: no-repeat;
         background-size: cover;
-        height: 1775px;
+        height: 2130px;
      }
     section{
         width: 338px;
@@ -215,11 +215,10 @@ input[type="radio"] + label span {
     }
   section.intro {
     border: 1px solid grey;
-      width: 19em;
+      width: 32em;
       margin-left: auto;
       margin-right: auto;
       margin-top: 678px;
-      height: 300px;
     }
     button.startbutton 
     {
@@ -232,11 +231,17 @@ input[type="radio"] + label span {
         margin-right: auto;
         margin-left: auto;
         width: 368px;
-        height: 294px;
+        height: 239px;
         margin-top: 678px;
+    }
+    .questions h2{
+        font-size: 14px;
     }
     .choices{
         width: 186px;
+    }
+    .results{
+        margin-top: 100px;
     }
     input[type="radio"] {
 
