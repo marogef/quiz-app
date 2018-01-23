@@ -199,8 +199,16 @@ input[type="radio"] + label span {
 }
 @media only screen and (max-device-width: 420px) {
     html {
-    height: 43em;
-}
+        height: 43em;
+    }
+    html, body {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 1775px;
+     }
     section{
         width: 338px;
         margin-top: 0px;
@@ -208,7 +216,10 @@ input[type="radio"] + label span {
   section.intro {
     border: 1px solid grey;
       width: 19em;
-      margin-top: 250px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 678px;
+      height: 300px;
     }
     button.startbutton 
     {
@@ -220,15 +231,18 @@ input[type="radio"] + label span {
     .questions{
         margin-right: auto;
         margin-left: auto;
-        width: 265px;
-        height: 340px;
-        margin-top: 185px;
+        width: 368px;
+        height: 294px;
+        margin-top: 678px;
     }
     .choices{
         width: 186px;
     }
     input[type="radio"] {
 
-   margin: 5px -176px -16px -142px;
+   margin: 5px -201px -15px -18px;
     }
 }
+
+
+
