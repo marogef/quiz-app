@@ -268,10 +268,9 @@ input[type="radio"] + label span {
     }
   section.intro {
     border: 1px solid grey;
-      width: 32em;
+      width: 19em;
       margin-left: auto;
       margin-right: auto;
-      margin-top: 900px;
     }
     button.startbutton 
     {
@@ -283,7 +282,7 @@ input[type="radio"] + label span {
     .questions{
         margin-right: auto;
         margin-left: auto;
-        width: 368px;
+        width: 270px;
         height: 239px;
         margin-top: 678px;
     }
