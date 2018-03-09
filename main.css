@@ -155,7 +155,7 @@ input[type="radio"] + label span {
     /*    background-color: aqua;*/
 }
 
-@media only screen and (max-device-width: 1025px) 
+@media only screen and (max-width: 1025px) 
  {
     html {
     height: 49em;
@@ -171,7 +171,7 @@ input[type="radio"] + label span {
     }
   section.intro {
     border: 1px solid grey;
-      width: 19em;
+      width: 25em;
       margin-top: 250px;
     }
     button.startbutton 
@@ -179,7 +179,7 @@ input[type="radio"] + label span {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    width: 301px;
+/*    width: 301px;*/
     }
     .questions{
         margin-right: auto;
@@ -198,7 +198,7 @@ input[type="radio"] + label span {
      
 }
 
-@media only screen and (max-device-width: 768px) {
+@media only screen and (max-width: 768px) {
    html {
         height: 43em;
     }
@@ -220,20 +220,24 @@ input[type="radio"] + label span {
       margin-left: auto;
       margin-right: auto;
       margin-top: 678px;
+      max-width: 67%;
+     margin-top: 250px;
+
     }
     button.startbutton 
     {
         text-align: center;
         margin-left: auto;
         margin-right: auto;
-        width: 210px;
+/*        width: 210px;*/
     }
     .questions{
         margin-right: auto;
         margin-left: auto;
           width: 456px;
-        height: 248px;
-        margin-top: 678px;
+        height: 330px;
+        margin-top: 185px;
+        max-width: 80%;
     }
     .questions h2{
         font-size: 18px;
@@ -250,7 +254,7 @@ input[type="radio"] + label span {
 }
 
 
-@media only screen and (max-device-width: 420px) {
+@media only screen and (max-width: 420px) {
     html {
         height: 43em;
     }
@@ -270,21 +274,23 @@ input[type="radio"] + label span {
     border: 1px solid grey;
       width: 19em;
       margin-left: auto;
-      margin-right: auto;
+      margin-right: auto; 
+      margin-top: 250px;
+
     }
     button.startbutton 
     {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    width: 301px;
+/*    width: 301px;*/
     }
     .questions{
         margin-right: auto;
         margin-left: auto;
         width: 270px;
-        height: 239px;
-        margin-top: 678px;
+        height: 330px;
+        margin-top: 185px;
     }
     .questions h2{
         font-size: 14px;
